@@ -62,7 +62,7 @@ body {
     text-decoration: none;
 }
 .image2{
-    max-height: 100vh;
+    max-height: 60vh;
     
     border-radius: 10px;
     margin-bottom: 10px; 
@@ -137,4 +137,34 @@ body {
 
 #about-us ul{
     margin-left: 20px;
+}
+
+/* --------------testimonial Section------------------- */
+
+#testimonials{
+    margin: 100px 0;
+
+}
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+/* ------------------social media section----------------- */
+
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
 }
