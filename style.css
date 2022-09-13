@@ -168,3 +168,18 @@ body {
     background: #f8f9fa;
     padding: 100px 0;
 }
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.fa-brands{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding: 40px;
+    transition: 700ms;
+}
+.fa-brands:hover{
+   font-size: 50px;
+}
