@@ -46,6 +46,7 @@ body {
     background-image: linear-gradient(to right, #a517ba,#5f1782);
     color: #fff;
     padding-top: 5%;
+    position: relative;
 }
 .promo-title{
     font-size: 40px;
@@ -70,6 +71,8 @@ body {
 .bottom-img{
     width: 100% !important;
     height: 1% !important;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
 }
 /* **********SERVİCES SECTİON ******************/
 #services{
@@ -183,3 +186,54 @@ body {
 .fa-brands:hover{
    font-size: 50px;
 }
+.bottom-pic{
+    position: relative;
+    z-index: 10;
+}
+
+.banner2{
+    /* background: #333;
+    width: 1500px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #c30cdb 0%, #82048d 100%);
+    overflow: hidden; */
+
+}
+
+.waves{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  .waves::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 10px;
+    background-size: 20px 10px;
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px,white 13px);
+}
+.waves::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 35px;
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle at 10px 46px, white 20px, transparent 21px);
+}
+@keyframes waves{
+    from { transform: rotate(0deg);}
+    from { transform: rotate(360deg);}
+}
+
